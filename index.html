@@ -10,24 +10,33 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans&family=Poppins:wght@300;900&family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;600&family=Noto+Sans&family=Poppins:wght@300;900&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/CSS/normalize.css" />
     <link rel="stylesheet" href="/CSS/styles.css" />
   </head>
   <body>
-    <div class="media">
-      <div class="media__image">
-        <svg class="icon icon--primary">
-          <use xlink:href="/Images/sprite.svg#snap"></use>
-        </svg>
-      </div>
-      <div class="media__body">
-        <h3 class="media__title">Easy Start & Managed Updates</h3>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim
-          quibusdam provident eveniet porro velit molestias, quod quidem vitae
-          possimus quis!
-        </p>
-      </div>
-    </div>
+    <blockquote class="quote">
+      <p class="quote__text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit libero
+        corrupti, temporibus dolorum accusamus dolore ducimus. Dolorum dicta
+        ipsa quaerat!
+      </p>
+      <footer>
+        <div class="media">
+          <div class="media__image">
+            <svg class="icon icon--primary quote__line">
+              <use xlink:href="/Images/sprite.svg#line"></use>
+            </svg>
+          </div>
+          <div class="media__body">
+            <h3 class="media__title quote__author">John Johnson</h3>
+            <p class="quote__organization">Moshify Company CEO</p>
+          </div>
+        </div>
+      </footer>
+    </blockquote>
   </body>
 </html>
