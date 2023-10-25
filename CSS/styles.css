@@ -502,6 +502,11 @@ a {
 
 .grid {
     display: grid;
+    min-width: 0;
+}
+
+.grid > * {
+    min-width: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -520,7 +525,9 @@ a {
 
 .testimonial {
     padding: 3rem;
+    width: 100%;
 }
+
 
 .testimonial__image {
     position: relative;
@@ -529,6 +536,7 @@ a {
 
 .testimonial__image > img {
     width: 100%;
+    min-width: 0;
 }
 
 .testimonial__image > .icon-container {
