@@ -476,7 +476,7 @@ a {
 .quote__organization {
     font-size: 2rem;
     font-style: normal;
-    opacity: 50%;
+    opacity: 0.4;
 }
 
 .quote__line {
