@@ -30,6 +30,7 @@ body {
     color: var(--color-body);
     font-size: 2.4rem;
     line-height: 1.5;
+    overflow-x: hidden;
 }
 
 h1, h2, h3 {
@@ -628,6 +629,7 @@ transform: rotate(0);
 .block {
     --padding-vertical: 6rem;
     padding: var(--padding-vertical) 2rem;
+    overflow-x: hidden;
 }
 
 .block__header {
